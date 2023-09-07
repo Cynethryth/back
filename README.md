@@ -18,10 +18,12 @@ Lo primero que se hizo para comenzar el proyecto fue la instalacion de las depen
 que considere que serian las principales en usarse en el desarrollo del proyecto dichas fueron:
 
 frontend:
-aut0 para simplificar el inicio de sesion entre otras cosas
+nextauth para simplificar el inicio de sesion entre otras cosas
 redux para el manejo de estados estaticos
 sweetalert2 uso de alertas sencillas
 tailwind libreria de estilos css para agilizar el diseño
+axios
+
 
 nota: para el uso de los QR se usara la api de google para la creacion de los mismo, aunque podra
 ser cambiada con facilidad por otra api de la preferencia de la consultoria si en algun momento se requiriese
@@ -31,3 +33,13 @@ jsonwebtokens creacion de tokens para empaquetar la informacion de sesion para e
 nodemon dependencia de desarrollo
 uuidv4 creacion de ids para los usuarios entre otras cosas
 
+paso 2
+    conexiones:
+        En este paso se realizaron las conexiones del backend con la base de datos y 
+        del frontend con la api
+
+paso3 
+    una ves creada las conexiones con la base de datos y del frontend con la api procedo a 
+    la creacion de una branch donde se hara la configuraicon del forntend para el inicio de sesion
+    usando las tecnologias next-auth y jasonWenTokens en frontend y backend respectivamente
+      
