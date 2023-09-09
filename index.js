@@ -9,6 +9,8 @@ app.options("*", cors());
 
 //imports routes
 const login = require("./routes/login");
+const invitaciones = require("./routes/invitaciones");
+const departamentos = require("./routes/departamentos");
 
 //use functions
 app.use(router);
@@ -16,6 +18,8 @@ app.use(express.json({ limit: "500mb" }));
 app.use(express.urlencoded({ extended: true }));
 app.use(cors());
 app.use("/login", login);
+app.use("/invitaciones", invitaciones);
+app.use("/departamentos", departamentos);
 
 router.get("/", function (request, response) {
   response
